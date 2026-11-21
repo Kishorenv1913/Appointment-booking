@@ -699,5 +699,32 @@ INSERT INTO knowledge_documents (document_id, title, category, source_type, prov
     NULL,
     'Frequently Asked Questions: Q: Can I pay at the studio? A: Yes, payment can be settled upon arrival or charged to your card on file. Q: How do I know my booking is confirmed? A: You receive an instant confirmation screen with your SW-XXXX code and an alert in your notifications. Q: Are all providers verified? A: Yes, providers with the Verified badge are certified, insured, and identity-checked. Q: Can I book for someone else? A: Yes, simply enter the recipient name in the Customer Name field during checkout.',
     0
+),
+(
+    'doc-kb-admin',
+    'Studio Admin Management & Slot Control Guide',
+    'Booking Policies',
+    'admin',
+    NULL,
+    'SlotWise Provider Admin Console Features: Bookings Queue allows studio managers to view active, completed, and cancelled client appointments in real time. Live Slot Management enables toggling individual slots between Open and Blocked. RAG Knowledge Base Management lets admins upload TXT, PDF, and FAQ documents, monitor indexing statistics, and test semantic vector search directly.',
+    0
+),
+(
+    'doc-kb-billing',
+    'Payment Methods & Billing FAQ',
+    'FAQ',
+    'faq',
+    NULL,
+    'Payment & Billing Information: Q: When am I charged for my appointment? A: You can pay at the studio at check-in (cash or card) or charge your card on file upon appointment completion. Q: How do discounts work? A: $10 Welcome Credit is automatically deducted from your total checkout price at the studio. All prices listed on SlotWise are upfront with no hidden booking fees.',
+    0
+),
+(
+    'doc-kb-verification',
+    'Provider Verification & Safety Standards',
+    'FAQ',
+    'faq',
+    NULL,
+    'Verification & Quality Standards: Q: What does the Verified badge mean? A: Service providers with the Verified badge have completed business identity verification, professional credential checks, and adhere to clean studio and insurance requirements. Top Rated studios maintain an average rating of 4.8 stars or higher across verified client reviews.',
+    0
 )
 ON CONFLICT DO NOTHING;
