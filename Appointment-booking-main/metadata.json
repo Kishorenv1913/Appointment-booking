@@ -1,0 +1,8 @@
+{
+  "name": "SlotWise",
+  "description": "Smart appointment scheduling and local service booking platform with real-time slot availability and AI concierge assistance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
